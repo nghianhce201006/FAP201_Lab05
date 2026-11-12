@@ -1,0 +1,37 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'E:\FAP\lab05\sim\lab05_tb.vhd'
+Analyzing entity 'lab05_tb'("E:\FAP\lab05\sim\lab05_tb.vhd":4)
+Analyzing architecture 'sim'("E:\FAP\lab05\sim\lab05_tb.vhd":7)
+Analyzing VHDL file 'E:\FAP\lab05\src\demux_1_to_4.vhd'
+Analyzing entity 'demux_1_to_4'("E:\FAP\lab05\src\demux_1_to_4.vhd":4)
+Analyzing architecture 'rtl'("E:\FAP\lab05\src\demux_1_to_4.vhd":16)
+Analyzing VHDL file 'E:\FAP\lab05\src\lab05.vhd'
+Analyzing entity 'lab05'("E:\FAP\lab05\src\lab05.vhd":4)
+Analyzing architecture 'rtl'("E:\FAP\lab05\src\lab05.vhd":20)
+Analyzing VHDL file 'E:\FAP\lab05\src\lfsr_timer.vhd'
+Analyzing entity 'lfsr_timer'("E:\FAP\lab05\src\lfsr_timer.vhd":5)
+Analyzing architecture 'rtl'("E:\FAP\lab05\src\lfsr_timer.vhd":21)
+Statement containing an event control without an edged expression will not be converted to an explicit state machine("E:\FAP\lab05\sim\lab05_tb.vhd":109)
+Processing 'lab05(RTL)'("E:\FAP\lab05\src\lab05.vhd":4)
+'others' clause is never selected("E:\FAP\lab05\src\lab05.vhd":92)
+NOTE  (EX0101) : Current top module is "lab05"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "E:\FAP\lab05\impl\gwsynthesis\lab05.vg" completed
+[100%] Generate report file "E:\FAP\lab05\impl\gwsynthesis\lab05_syn.rpt.html" completed
+GowinSynthesis finish
